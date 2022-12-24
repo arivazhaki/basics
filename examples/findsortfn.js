@@ -1,0 +1,12 @@
+const array=[10,20,30,40];
+const bigger=array.find(element=>element>20);
+console.log(bigger);
+const alpha=['A','Z','F','R'];
+alpha.sort();
+console.log(alpha);
+const num=[3000,12,34,1,5];
+num.sort();
+console.log(num);
+const numbers = [3, 1, 4, 1, 5];
+const sorted = numbers.sort((a, b) => a - b);
+console.log(sorted);
